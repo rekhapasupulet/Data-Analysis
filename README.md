@@ -17,6 +17,8 @@ summary(nycTaxi)
 ```
 Let us look into the trip duration of this dataset.
 The variable Trip duration is right skewed with very long tail. we will therefore take the log to normalise the Trip Duration distribution.
+![1](https://user-images.githubusercontent.com/41823726/147149032-c5cea79e-78b1-4dc9-bbfe-7936976441ee.png)
+
 
 
 ```{r}
