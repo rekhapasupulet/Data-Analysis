@@ -30,6 +30,7 @@ g + geom_histogram(col="blue",bins=100) +
 
 
 Let us check the new plot. The log of the trip duration is normally distributed, although with a high peak.
+![2](https://user-images.githubusercontent.com/41823726/147149135-a03638cb-7b95-46f6-bdf1-5a2a6f54ec58.png)
 
 ```{r}
 g <- ggplot(data=nycTaxi,aes(log(nycTaxi$trip_duration+1))) + geom_histogram(col="blue",bins=100) + 
