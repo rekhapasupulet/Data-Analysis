@@ -52,5 +52,11 @@ The dataset had outliers. An Anderson Darling test demonstrated no normality by 
 
 **Tests applied: Outliers check, Anderson-Darling Normality test for Normality check, levene Test for variance, Two-way ANOVA, emmeans test.**
 
+## Analysis 4
+**Tests applied : Linear Regression, Lasso Regression, Correlation**
+
+When looking at the estimates, positive estimated variables like the pick-up point in Queens, the drop-off point in Manhattan, credit card payment, and lastly the total amount(higher estimate of all), made an impact on the tips amount. So, in order for the taxi driver to make more tips, he should concentrate more on picking up customers from Queens, customers travelling to Manhattan, customers who like to pay with a credit card, and finally, if he can earn a higher total amount. This is only possible if the trip distance or duration is long, resulting in a higher total amount of money. This maximization of tips are subjective to this dataset.
+
+we shall set up the data frame to show the raw correlations in a table. The highest correlation is sorted first in the data set. Only variables above a certain significance level threshold are selected in order to limit the sheer number of variables (without having to manually pick and choose). As a starting point, it's set at 0.5. After the table is created, it will return the correlation matrix chart below, which has been filtered out. Only correlations with a significant enough level of significance will have a coloured circle. If there are still a lot of variables, this helps to cut out the noise even further. After some feature engineering, the 'corr simple' function can be used again and again, or with varying significance levels.data quickly and to see only the information that is relevant. With more variables, it may be essential to experiment with alternative significance thresholds and/or employ additional feature engineering to limit the number of associated variables before re-running the function until the results are understandable and helpful.The correlation plot also shows the impact of total_amount on tip_amount
 
 
