@@ -1,8 +1,8 @@
 ## Research Questions
-Analysis 1. Is there any difference between the average morning and afternoon trip durations?
-Analysis 2. Is there any difference in the average trip duration between the morning, afternoon, evening, and night?
-Analysis 3. Is there any interaction between PUborough(pick-up point) and TimeOfDay when considering average trip duration?
-Analysis 4. How can one increase tip amounts?
+1. Is there any difference between the average morning and afternoon trip durations?
+2. Is there any difference in the average trip duration between the morning, afternoon, evening, and night?
+3. Is there any interaction between PUborough(pick-up point) and TimeOfDay when considering average trip duration?
+4. How can one increase tip amounts?
 # Data-Analysis
 ## Basic EDA
 Let us look into the trip duration of this dataset.
@@ -44,6 +44,9 @@ The current study seeks to determine whether or not there were any differences i
 
 Let's determine wether or not there an interaction between PUborough and TimeOfDay when considering average trip duration. The times in a day are divided into
 four categories: Morning (n = 32970), Afternoon (n = 32919 ), Evening (n = 23743 ) and Night (n = 10368). 
+
+![image](https://user-images.githubusercontent.com/41823726/148461467-23f33f03-ac4d-4832-9f9b-b37b904eaaa3.png)
+
 
 The dataset had outliers. An Anderson Darling test demonstrated no normality by group and levene's test showed heterogenity of variance. The ANOVA table indicates that the interaction effect is significant,with p < .05.Hence we reject null hypothesis. An interracted plot was plotted for the available data. All four lines have shown increase for Broklynn, Manhattan, Queens and Staten Island. Further analysis of main effect for "PUBorough" was performed with statistical significance receiving a tukey adjustment. According to ANOVA test there was a  statistically significant interaction effect between the TimeOfDay and PUborough, F(11, 99980) = 149.294, $\eta^2$ = 0.016, p < 0.05. Consequently, an analysis of main effects  was performed with statistical significance receiving  a Bonferroni adjustment. There is a significance difference between Afternoon, PUborough F(4,99980)=2759. p<0.05, Evening, PUborough F(4,99980)=979. p<0.05, Morning, PUborough F(5,99980)=990. p<0.05, Night, PUborough F(3,99980)=72.2, p<0.05. All pairwise comparisions were analysed between the different levels, there were significant difference between PUborough and TimeOfDay when considering average trip duration.
 
