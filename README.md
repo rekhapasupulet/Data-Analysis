@@ -4,6 +4,7 @@
 3. Is there any interaction between PUborough(pick-up point) and TimeOfDay when considering average trip duration?
 4. How can one increase tip amounts?
 # Data-Analysis
+Data Description : Vendor, RateCode, PUborough, DOborough, passenger_count, trip_distance, TimeOfDay, trip_duration,	paymentMethod, fare_amount, extra, mta_tax,	tip_amount,	tolls_amount, improvement_surcharge, total_amount.
 ## Basic EDA
 Let us look into the trip duration of this dataset.
 The variable Trip duration is right skewed with very long tail. we will therefore take the log to normalise the Trip Duration distribution.
