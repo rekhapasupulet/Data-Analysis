@@ -1,4 +1,4 @@
-## NYC Taxi Data Analysis
+## NYC Taxi Data
 ## Research Questions
 1. Is there any difference between the average morning and afternoon trip durations?
 2. Is there any difference in the average trip duration between the morning, afternoon, evening, and night?
