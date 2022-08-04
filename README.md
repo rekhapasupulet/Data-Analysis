@@ -1,13 +1,17 @@
-## NYC Taxi Data
+## Statistical Analysis on New York Taxi Data
+![taton-moise-MJUPKcRY0HI-unsplash](https://user-images.githubusercontent.com/41823726/182962259-ae1002b1-fe68-4c43-8245-77e5392fcced.jpg)
+
 ## Research Questions
 1. Is there any difference between the average morning and afternoon trip durations?
 2. Is there any difference in the average trip duration between the morning, afternoon, evening, and night?
 3. Is there any interaction between PUborough(pick-up point) and TimeOfDay when considering average trip duration?
 4. How can one increase tip amounts?
+![kenny-eliason-maJDOJSmMoo-unsplash](https://user-images.githubusercontent.com/41823726/182962596-050b9f7b-a2d3-48dd-9349-f0e2a02565db.jpg)
+
 # Data-Analysis
 Data Description : Vendor, RateCode, PUborough, DOborough, passenger_count, trip_distance, TimeOfDay, trip_duration,	paymentMethod, fare_amount, extra, mta_tax,	tip_amount,	tolls_amount, improvement_surcharge, total_amount.
 ## Basic EDA
-Let us look into the trip duration of this dataset.
+The trip duration of this dataset.
 The variable Trip duration is right skewed with very long tail. we will therefore take the log to normalise the Trip Duration distribution.
 ![1](https://user-images.githubusercontent.com/41823726/147149032-c5cea79e-78b1-4dc9-bbfe-7936976441ee.png)
 
